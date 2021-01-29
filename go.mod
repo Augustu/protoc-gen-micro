@@ -1,4 +1,4 @@
-module github.com/micro/protoc-gen-micro/v2
+module github.com/telecast/protoc-gen-micro/v2
 
 go 1.13
 
