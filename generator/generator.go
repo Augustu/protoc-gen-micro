@@ -320,12 +320,12 @@ func (d *FileDescriptor) goFileName(pathType pathType) string {
 
 	// Does the file have a "go_package" option?
 	// If it does, it may override the filename.
-	if impPath, _, ok := d.goPackageOption(); ok && impPath != "" {
-		// Replace the existing dirname with the declared import path.
-		_, name = path.Split(name)
-		name = path.Join(string(impPath), name)
-		return name
-	}
+	// if impPath, _, ok := d.goPackageOption(); ok && impPath != "" {
+	// 	// Replace the existing dirname with the declared import path.
+	// 	_, name = path.Split(name)
+	// 	name = path.Join(string(impPath), name)
+	// 	return name
+	// }
 
 	return name
 }
