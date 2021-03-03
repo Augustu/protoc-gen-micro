@@ -52,9 +52,9 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/Augustu/protoc-gen-micro/v2/generator"
+	_ "github.com/Augustu/protoc-gen-micro/v2/plugin/micro"
 	"github.com/golang/protobuf/proto"
-	"github.com/telecast/protoc-gen-micro/v2/generator"
-	_ "github.com/telecast/protoc-gen-micro/v2/plugin/micro"
 )
 
 func main() {

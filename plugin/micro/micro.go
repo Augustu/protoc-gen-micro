@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Augustu/protoc-gen-micro/v2/generator"
 	"github.com/golang/protobuf/proto"
 	pb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/telecast/protoc-gen-micro/v2/generator"
 	options "google.golang.org/genproto/googleapis/api/annotations"
 )
 
